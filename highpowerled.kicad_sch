@@ -1,0 +1,2281 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fddf9d0c-fec5-4b53-99c4-8b307432a470")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Pad"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Pad"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode with pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Pad_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.508) (xy -2.032 -2.032) (xy 2.032 -2.032) (xy 2.032 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.397) (xy 0.635 2.921) (xy -0.127 2.921) (xy 0.635 2.921) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.397) (xy 1.905 2.921) (xy 1.143 2.921) (xy 1.905 2.921) (xy 1.905 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Pad_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 77.47 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09019ed9-4b06-4141-b3dd-bbfe7dedd88b")
+	)
+	(junction
+		(at 52.07 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cc5553a-fd56-406b-83d4-214e79e965da")
+	)
+	(junction
+		(at 41.91 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e09955a-62eb-41e9-bce5-bf148c168eb2")
+	)
+	(junction
+		(at 62.23 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c775a88-8890-4d3a-aee6-f9c21e03cd93")
+	)
+	(junction
+		(at 72.39 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2406d68b-3fce-4c38-93aa-3c65ccca5b32")
+	)
+	(junction
+		(at 77.47 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2548ecc2-8c24-4744-8f8d-d1355c525c9a")
+	)
+	(junction
+		(at 41.91 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8debc3-5cd4-4062-953a-6d66d93d674b")
+	)
+	(junction
+		(at 77.47 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd98469-5f0e-46f5-a42e-4730d6759769")
+	)
+	(junction
+		(at 52.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45e74832-d88d-46b5-a9e3-efd1dd7a5fdb")
+	)
+	(junction
+		(at 77.47 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e00713-b950-4e8d-91b5-95f521a1633d")
+	)
+	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5109e577-660e-4844-ae5e-601520365539")
+	)
+	(junction
+		(at 72.39 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a31ca80-2144-4b5f-9488-f6382c544524")
+	)
+	(junction
+		(at 77.47 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60864cc8-9fdd-4bf9-98fd-daa832ec59b5")
+	)
+	(junction
+		(at 41.91 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c19a741-3a32-4d59-b17c-c2cf8defbdcd")
+	)
+	(junction
+		(at 62.23 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7511b62c-86b3-4aea-bf64-251801910c86")
+	)
+	(junction
+		(at 41.91 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ead9876-f061-47b3-9c02-91cf005a0542")
+	)
+	(junction
+		(at 41.91 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "993ef8df-8204-45d0-aaa2-756524db021c")
+	)
+	(junction
+		(at 77.47 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaa71525-407e-4160-af4c-62e7937916e6")
+	)
+	(junction
+		(at 77.47 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeb4a6f1-5d9d-40e9-9142-a795ee863bbe")
+	)
+	(junction
+		(at 41.91 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1d40bec-072a-4250-879a-95055ea5002f")
+	)
+	(junction
+		(at 77.47 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdfaa7bb-f446-4ceb-9da3-9e70486f3730")
+	)
+	(junction
+		(at 41.91 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce47e017-dcdf-4254-a8ff-461d8807a828")
+	)
+	(junction
+		(at 77.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0482635-5226-4b40-b122-4323f5483695")
+	)
+	(junction
+		(at 62.23 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72cfa0c-9ae4-4d46-8d48-c182174a55dd")
+	)
+	(junction
+		(at 77.47 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5707870-66b7-49d4-956d-fc4e77178d43")
+	)
+	(junction
+		(at 52.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eacba87d-b960-4ea5-8487-6c26030df05a")
+	)
+	(junction
+		(at 62.23 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc542a2-a8a9-479c-aeaf-7849ed9a1637")
+	)
+	(junction
+		(at 41.91 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edfcc4d1-585a-4d2f-b2ef-280cdb398703")
+	)
+	(junction
+		(at 52.07 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fab58146-f15e-4dc3-a176-fe20cc0efeeb")
+	)
+	(wire
+		(pts
+			(xy 41.91 113.03) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0705a205-270f-4824-ad67-f9bf13458541")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101498da-7a9b-447e-a829-e2df01fd8709")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a6c370-3ba8-4958-9d3f-6a952299bf62")
+	)
+	(wire
+		(pts
+			(xy 77.47 46.99) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24358285-da72-42ff-9f21-e371cfebddf3")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 41.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24718cb2-21ce-4c12-b561-42159f0919a6")
+	)
+	(wire
+		(pts
+			(xy 67.31 87.63) (xy 77.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2677b08c-b7cc-4978-a4df-de37b405eb61")
+	)
+	(wire
+		(pts
+			(xy 41.91 27.94) (xy 41.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b723cc-9eda-47ef-bf8e-7ff7600660f8")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d6ebdd-9545-4574-80a6-874d3ac93b29")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e58009c-e6cf-4f02-911a-dd347703a624")
+	)
+	(wire
+		(pts
+			(xy 72.39 97.79) (xy 72.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401b3a3a-3a57-4aa5-a4d7-38b346721c80")
+	)
+	(wire
+		(pts
+			(xy 52.07 50.8) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ecd771-a366-4911-98b6-ad1621fa159e")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b6b26e-5ef1-4e1d-85c1-a3d2e74d1fd1")
+	)
+	(wire
+		(pts
+			(xy 41.91 58.42) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487d1307-57b4-44be-979e-e1848f8534c8")
+	)
+	(wire
+		(pts
+			(xy 72.39 27.94) (xy 41.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdf10dc-3e0e-487e-becb-03422439b9e6")
+	)
+	(wire
+		(pts
+			(xy 46.99 62.23) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da12c0f-d417-4741-bedd-29730705809b")
+	)
+	(wire
+		(pts
+			(xy 57.15 85.09) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff097b7-aef0-4404-bb00-bb9fbdf1a43f")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.39) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d54502-d21b-4e3f-8459-0812f65b63c3")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c42de9-d107-41b9-be5c-5e877ee1c65d")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5209bc-1bda-43a9-ac87-9cb12a31ec69")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc69379-9297-46fc-bc07-9ad48df6531e")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ef0b40-d509-4a36-be03-14c0f4c059eb")
+	)
+	(wire
+		(pts
+			(xy 41.91 43.18) (xy 41.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6373b443-8648-490e-8686-470e7423c790")
+	)
+	(wire
+		(pts
+			(xy 77.47 64.77) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fc5bdf-a72b-4a4d-a089-dc12a9d09dfe")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 57.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7c7c01-9dcc-45e8-89ef-3d7dd146315a")
+	)
+	(wire
+		(pts
+			(xy 67.31 48.26) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce97435-00f7-4fe5-a3ed-a4fd514fa774")
+	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 62.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ded0a61-9125-40f5-874a-4444f812cdc1")
+	)
+	(wire
+		(pts
+			(xy 77.47 85.09) (xy 77.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708e987e-8c06-455a-88fa-7cbafc9ba699")
+	)
+	(wire
+		(pts
+			(xy 57.15 54.61) (xy 57.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f42609-7d8a-4de6-8371-3e2b9c1e9d16")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b58c9f-a304-4152-9e01-4f8925687335")
+	)
+	(wire
+		(pts
+			(xy 77.47 48.26) (xy 77.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81de2f5a-47d2-47c5-82d2-f6352241c5bf")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8225ed0e-907b-42b9-92e8-996f400c91f7")
+	)
+	(wire
+		(pts
+			(xy 52.07 73.66) (xy 52.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82587ce9-b3ea-4b9e-b46f-118b0e9db67f")
+	)
+	(wire
+		(pts
+			(xy 41.91 58.42) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82de95d5-938d-4586-b1fd-7728609a5845")
+	)
+	(wire
+		(pts
+			(xy 72.39 72.39) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fcc746-a526-40f2-9ef2-8cbda8ad41a7")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85752740-d73d-4907-b124-9e488bf37d7a")
+	)
+	(wire
+		(pts
+			(xy 52.07 97.79) (xy 52.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f103d7-ec0d-4158-97c7-90e1a6feae34")
+	)
+	(wire
+		(pts
+			(xy 41.91 38.1) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86967ff0-e6f6-449c-89d8-135c5f838159")
+	)
+	(wire
+		(pts
+			(xy 46.99 54.61) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87035aff-f442-47ce-8ee8-9879a7268e8a")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 62.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8959081e-b548-4b03-96ac-a54a4b1d7984")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 41.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910d29ca-95d6-4841-9a5b-454ea2be61af")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 46.99 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94593087-04a2-458a-82f9-78646055ac74")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 41.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9612dc46-13c6-478a-820f-3a11ac9350c5")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.39) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0dbe2a5-9059-4356-bedd-746d46aabbd1")
+	)
+	(wire
+		(pts
+			(xy 41.91 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2340814-e738-4e94-9da6-222b6afbd286")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 62.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32a8072-2c39-43b3-9006-c3928e97b344")
+	)
+	(wire
+		(pts
+			(xy 41.91 104.14) (xy 41.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f542ac-9429-41fc-bb16-2737c030a49d")
+	)
+	(wire
+		(pts
+			(xy 77.47 45.72) (xy 77.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae203351-b655-4c8e-b44f-46f0c467d287")
+	)
+	(wire
+		(pts
+			(xy 41.91 104.14) (xy 52.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2bd894-fc00-4710-8ec2-4643cc419774")
+	)
+	(wire
+		(pts
+			(xy 46.99 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b097f427-f642-499d-a781-2868b6bd055d")
+	)
+	(wire
+		(pts
+			(xy 41.91 38.1) (xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fd38d7-c90c-448b-a5ea-d285cee54a7f")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 77.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57aaef8-d6f3-498a-9935-472976d7e151")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce2f579-7104-4ebe-a69e-4291f4b1a164")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 77.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec6c7d7-02fa-4e7f-bfd2-5a19e07b2991")
+	)
+	(wire
+		(pts
+			(xy 72.39 27.94) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf15ff92-3dec-495a-89ff-41abc8bac3e9")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21c51a1-efdd-40de-9fb3-f0937de7316d")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 77.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45d1aaf-817b-4c7d-bac4-4994a7c24e46")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.79) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6320c0e-0b15-4740-8274-7202de8b3e00")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9421902-d2f8-498f-9426-3938b84999ee")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 72.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde6a8aa-a28a-463d-8946-a131e750a3e6")
+	)
+	(wire
+		(pts
+			(xy 52.07 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d564860a-d78c-4225-b1e5-5f8e30e4f7b1")
+	)
+	(wire
+		(pts
+			(xy 77.47 68.58) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d736156f-b88c-425b-955c-3d8ec250f3f0")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db794ff8-331b-4189-84a8-facd7bffc581")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6818fe-67e1-4254-86b9-7d02151b8d31")
+	)
+	(wire
+		(pts
+			(xy 41.91 25.4) (xy 41.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c595cf-5a75-4f19-b00b-9af3f1725b6e")
+	)
+	(wire
+		(pts
+			(xy 46.99 93.98) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec904429-aca8-436a-8cf6-16f5161e5309")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5510f94-8bf8-44a4-b6b8-b817ada98f0d")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 52.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f742d307-bfe2-4c86-a771-0b6638cac780")
+	)
+	(wire
+		(pts
+			(xy 72.39 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd571c2e-0dd2-42dc-a6c9-2ee842c445e9")
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 72.39 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0353c42e-59e0-4978-a37a-d293bd86e17c")
+		(property "Reference" "D4"
+			(at 68.58 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 68.58 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 72.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 72.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 72.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38ace63a-2589-4266-b493-3aada006ae28")
+		)
+		(pin "3"
+			(uuid "3b39d7ca-64dc-40cf-bebb-fb8976f2935f")
+		)
+		(pin "1"
+			(uuid "02af7dd9-2b19-4854-9eef-66109f00ec5f")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 52.07 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e1f9270-4574-477a-9170-abd42547a1c8")
+		(property "Reference" "D10"
+			(at 48.26 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 48.26 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "636f7b51-a424-450a-85a9-08942e954a50")
+		)
+		(pin "3"
+			(uuid "90921961-c143-4b4c-932f-d08b6eec768b")
+		)
+		(pin "1"
+			(uuid "86d5ebd9-c207-414d-93e9-6dc1ee1e0c33")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 41.91 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d7568e0-f2e9-4caa-987e-b23144cbec20")
+		(property "Reference" "J2"
+			(at 44.45 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 44.45 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:CONN_BIG_01X01"
+			(at 41.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f75bbd21-9c32-4f65-873a-3cf0713c1ae2")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 41.91 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "259e8423-71f2-414c-badf-a80634708087")
+		(property "Reference" "D5"
+			(at 38.1 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 38.1 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7eab4f2-38f2-4ca4-9910-e5c4e84c4480")
+		)
+		(pin "3"
+			(uuid "0bb9eb91-d350-439c-aa86-3321d0dd8b1f")
+		)
+		(pin "1"
+			(uuid "661d5279-9cc0-4dcc-bc4d-185b7d5a31ff")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "266db4a3-88fe-4d3c-bbb2-79642a6bda29")
+		(property "Reference" "J3"
+			(at 80.01 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.01 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "highpowerled_library:CONN_BIG_01X01"
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90fb406-f871-4b03-a73d-52f034a774bb")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 41.91 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5a3218-68db-475d-9820-4791dd8c2330")
+		(property "Reference" "D9"
+			(at 38.1 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 38.1 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14b19df0-28fc-4e2b-8457-9ce32a48e27a")
+		)
+		(pin "3"
+			(uuid "4ae95889-a709-42f7-8177-037d77af82f7")
+		)
+		(pin "1"
+			(uuid "c9f0a040-9199-4493-a2f9-6831e61bad47")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 62.23 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60611517-6642-41f0-84ed-bda2954051cc")
+		(property "Reference" "D3"
+			(at 58.42 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 58.42 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4be3da47-a431-4e06-a77c-e0c83a4c6488")
+		)
+		(pin "3"
+			(uuid "f9932b0d-a273-4eeb-88c6-0b1464271336")
+		)
+		(pin "1"
+			(uuid "2b60f136-d3c3-4039-92f1-20d84d795a5b")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 62.23 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b421ce-3c6a-4d63-b9ee-7c3c9080628a")
+		(property "Reference" "D11"
+			(at 58.42 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 58.42 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "717a9025-8268-40f6-8cf8-7b0085ff0eb1")
+		)
+		(pin "3"
+			(uuid "f4491d46-d2da-4ed5-bb74-25009fba4c58")
+		)
+		(pin "1"
+			(uuid "569116b6-eb8e-4a4b-9f41-5eabf4bf1778")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 41.91 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8068cf3f-e85b-4eea-99d5-9513b5a8fb13")
+		(property "Reference" "J1"
+			(at 44.45 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 44.45 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "highpowerled_library:CONN_BIG_01X01"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4159764c-ac48-4dd7-a80f-79cbc68aed1e")
+		)
+		(instances
+			(project ""
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 52.07 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82276825-153d-4ea2-a2bf-37851571e4c9")
+		(property "Reference" "D6"
+			(at 48.26 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 48.26 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cce315a-fc1c-4576-8d12-daad6193eaec")
+		)
+		(pin "3"
+			(uuid "4783cf10-a80a-48f4-b6cc-88b3ba4c89fe")
+		)
+		(pin "1"
+			(uuid "53cb147b-80a4-41fc-ba1b-8fde01c1e6be")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 41.91 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847bad4a-1926-4c42-9423-4cd5c694289c")
+		(property "Reference" "D1"
+			(at 38.1 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 38.1 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d15df286-47a5-4c1c-891e-a4c42d50e67d")
+		)
+		(pin "3"
+			(uuid "786901d9-084c-4f79-a712-3c5df97d0ade")
+		)
+		(pin "1"
+			(uuid "f3f33091-a4d9-4a39-a27e-37ed86e3bf42")
+		)
+		(instances
+			(project ""
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 72.39 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff00d32-e331-49f1-bc9a-5d59b3bb179e")
+		(property "Reference" "D8"
+			(at 68.58 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 68.58 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "548cbfed-2f23-45f7-a4b9-89c6711a4681")
+		)
+		(pin "3"
+			(uuid "a3f6d890-533a-48bd-a3db-760c33b278e2")
+		)
+		(pin "1"
+			(uuid "0feb63d4-57b9-41c6-a2fe-f510adad70a7")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 62.23 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ba732f-6a33-4de8-a094-4a54045a2d6b")
+		(property "Reference" "D7"
+			(at 58.42 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 58.42 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 62.23 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d7a4780-551f-41bb-afb2-bddd2b750788")
+		)
+		(pin "3"
+			(uuid "40e435ae-523e-4b1c-83ba-b1314d72fa94")
+		)
+		(pin "1"
+			(uuid "16e40583-ec53-4292-9c91-4cd2b528fcf5")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 52.07 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36d5b8f-cd57-45a2-8931-2385f53d2026")
+		(property "Reference" "D2"
+			(at 48.26 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 48.26 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9567617a-4165-4b02-b2a6-6f68820cf613")
+		)
+		(pin "3"
+			(uuid "06995c20-45f9-4e61-993e-b5caf1f0e39a")
+		)
+		(pin "1"
+			(uuid "ceae218f-2987-4fa3-96fe-b41d2243a541")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Pad")
+		(at 72.39 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86b638b-a156-494f-9188-47ecdd8d4083")
+		(property "Reference" "D12"
+			(at 68.58 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Pad"
+			(at 68.58 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "highpowerled_library:LM6868"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.uvledchip.com/Spec-for-UVA-LED/Datasheet-LM6868-UVA-395nm.pdf"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode with pad"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a80c146-edcf-4092-8104-51c8cecccbce")
+		)
+		(pin "3"
+			(uuid "2dbc45e2-f248-4716-b914-9b734ab8b947")
+		)
+		(pin "1"
+			(uuid "6e89bd1a-709b-4fef-ad62-51511767e16c")
+		)
+		(instances
+			(project "highpowerled"
+				(path "/fddf9d0c-fec5-4b53-99c4-8b307432a470"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

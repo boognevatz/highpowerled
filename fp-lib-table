@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "highpowerled_library")(type "KiCad")(uri "${KIPRJMOD}/highpowerled_library.pretty")(options "")(descr ""))
+)
